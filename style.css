@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Playpen Sans', cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.prefix img {
+    width: 160px;
+    height: 160px;
+    border-radius: 1000px;
+}
+
+.line {
+    background-color: rgb(130, 158, 130);
+
+    width: 1300px;
+    border-radius: 1000px;
+    height: 10px;
+    justify-content: center;
+    margin: auto;
+}
+
+.initial-text {
+    padding-top: 100px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+}
+
+.products {
+    border: 1px solid;
+    margin-top: 100px;
+    height: 1000px;
+}
+
+.ibutton {
+    border: transparent;
+    color: #fff;
+    border-radius: 1000px;
+    padding: 10px;
+    font-style: italic;
+    background-color: rgb(130, 158, 130);
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.sbutton {
+    border: transparent;
+    color: #fff;
+    border-radius: 1000px;
+    padding: 10px;
+    font-style: italic;
+    background-color: rgb(130, 158, 130);
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.pro {
+    margin-top: 100px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.spe {
+    font-size: 35px;
+    color: rgb(154, 220, 97);
+}
+
+.a {
+    border: 5px solid rgb(130, 158, 130);
+    border-radius: 1000px;
+    height: 700px;
+    width:500px;
+    text-align: center;
+}
+
+.a img{
+    width: 100%;
+    height: auto;
+    border-radius: 1000px;
+}
+
+@media screen and (max-width: 1120px){
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    .line {
+        background-color: rgb(130, 158, 130);
+
+        width: 800px;
+        border-radius: 1000px;
+        height: 10px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .a {
+        height: 450px;
+        width: 300px;
+    }
+
+    .a img {
+        width: 300px;
+    }
+
+    .a h1 {
+        font-size: 35px;
+    }
+
+    .spe {
+        font-size: 25px;
+        color: rgb(154, 220, 97);
+    }
+}
+
+@media screen and (max-width: 768px){
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .line {
+        background-color: rgb(130, 158, 130);
+
+        width: 550px;
+        border-radius: 1000px;
+        height: 10px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .a {
+        height: 350px;
+        width: 200px;
+    }
+
+    .a img {
+        width: 200px;
+    }
+
+    .a h1 {
+        font-size: 35px;
+    }
+
+}
